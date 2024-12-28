@@ -20,7 +20,7 @@ hide_streamlit_style = """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 # Load your trained model
-model = tf.keras.models.load_model('/Users/hauradelfina/Documents/haura adzkia/project/image classification/result/GoogLeNet_model.h5')  # Update with your model's path
+model = tf.keras.models.load_model('./result/GoogLeNet_model.h5')  # Update with your model's path
 
 # Define the class names
 class_names = ['Healthy', 'Pneumonia', 'COVID-19']
